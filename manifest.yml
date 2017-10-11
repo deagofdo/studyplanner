@@ -1,0 +1,8 @@
+applications:
+- name: Testapp
+  memory: 512M
+  host: Testapp
+services:
+- MySql
+env:
+  dbname: MySql
