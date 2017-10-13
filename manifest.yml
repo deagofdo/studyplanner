@@ -2,7 +2,6 @@ applications:
 - name: Testapp
   memory: 512M
   host: Testappdeago
-  buildpack: https://github.com/cloudfoundry/java-buildpack.git
 services:
 - MySQL
 env:
