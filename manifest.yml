@@ -3,6 +3,7 @@ applications:
   memory: 512M
   host: Testappdeago
   buildpack: https://github.com/cloudfoundry/java-buildpack
+  path: target/jStudyPlanner-1.0.0-BUILD-SNAPSHOT.war
 services:
 - MySQL
 env:
